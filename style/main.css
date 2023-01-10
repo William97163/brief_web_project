@@ -89,6 +89,13 @@ section h1 {
   display: flex;
 }
 
+.avis .left label {
+  display: flex;
+  color: white;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
 .avis .left .psd {
   width: 437px;
   height: 29px;
