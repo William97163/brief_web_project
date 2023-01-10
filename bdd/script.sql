@@ -23,7 +23,7 @@ CREATE TABLE Utilisateur(
 CREATE TABLE Avis(
    id INT,
    pseudo VARCHAR(50),
-   message VARCHAR(50),
+   msg VARCHAR(50),
    _date DATETIME,
    PRIMARY KEY(id)
 );
