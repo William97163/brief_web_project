@@ -11,7 +11,7 @@
 
       ]);
 
-   header("Location: http://localhost/brief_web_project");
+   header("Location: http://localhost/brief_web_project/#avis_id");
    }else{   
       echo 'Veuillez renseigner tous les champs.';
    }
