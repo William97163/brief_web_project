@@ -1,5 +1,5 @@
 <?php
-
+/*
 require 'path/to/PHPMailerAutoload.php';
 
 // Récupération des données du formulaire
@@ -37,9 +37,8 @@ if (!$mail->send()) {
     echo 'Le message a bien été envoyé.';
 }
 
-?>
+?>*/
 
-/*
 //Code qui marche si nous ne somme pas en local car mail ne marche pas en local
 // Récupération des données du formulaire
 $pseudo = $_POST['contact_nom'];
@@ -58,4 +57,4 @@ $message .= "Message : " . $msg . "\n";
 // Envoi de l'email
 mail('twintower1109@gmail.com', 'Nouveau formulaire soumis', $message);
 
-?>*/
+?>
