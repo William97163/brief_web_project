@@ -47,10 +47,10 @@
           <div class="right">
             <div class="info">
               <div class="titre">INFO STATION</div>
-              <p>Nom station:</p>
-              <p>Etat:</p>
-              <p>Vélos dispo:</p>
-              <p>Places dispo:</p>
+              <h3>Nom station:</h3>
+              <h3>Etat:</h3>
+              <h3>Vélos dispo:</h3>
+              <h3>Places dispo:</h3>
             </div>
           </div>
         </div>
