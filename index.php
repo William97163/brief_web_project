@@ -81,7 +81,7 @@
               <button class="submit_btn" type="submit">Envoyer</button>
             </form>
           </div>
-          <div class="right">messages</div>
+          <div class="right"><?php include('php/avis_recup.php');?></div>
         </div>
       </section>
       <section class="contact" id="contact_id">
@@ -153,9 +153,5 @@
       crossorigin=""
     ></script>
     <script src="app.js"></script>
-
-    <?php
-    include('avis_recup.php');
-    ?>
   </body>
 </html>
