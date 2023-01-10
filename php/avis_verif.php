@@ -11,8 +11,8 @@
 
       ]);
 
-   include('../index.php');
-   }else{
+   header("Location: http://localhost/brief_web_project");
+   }else{   
       echo 'Veuillez renseigner tous les champs.';
    }
 ?>
