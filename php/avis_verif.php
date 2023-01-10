@@ -1,17 +1,17 @@
 <?php
-   if(!empty($_POST['nom'])&& !empty($POST['message'])){
+   if(!empty($_POST['nom'])&& !empty($_POST['message'])){
       // require permet d'indiquer qu'un fichier est requis 
-      require('bdd.php');
+      require('avis_bdd.php');
 
-      $req= $bdd -> prepare('INSERT INTO Avis(pseudo, message, _date) VALUES(:nom, :message, :heure)');
+      $req= $bdd -> prepare('INSERT INTO avis(pseudo, msg, _date) VALUES(:nom, :msg, :heure)');
       $req -> execute([
-         'pseudo'=>$_POST['pseudo'],
-         'msg'=>$_POST['msg'], 
-         'heure'=>date('y/m/d H:i/s')
+         'nom'=>$_POST['nom'],
+         'msg'=>$_POST['message'], 
+         'heure'=>date('y/m/d H:i:s')
 
       ]);
 
-   include('index.php');
+   include('../index.php');
    }else{
       echo 'Veuillez renseigner tous les champs.';
    }

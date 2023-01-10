@@ -59,7 +59,7 @@
         <h1>LES AVIS</h1>
         <div class="content">
           <div class="left">
-            <form class="avis_form" method="post">
+            <form class="avis_form" action ="php/avis_verif.php" method="post">
               <label for="nom">nom:</label>
               <input
                 type="text"
