@@ -1,0 +1,133 @@
+@import url("https://fonts.cdnfonts.com/css/rounded-elegance");
+@import url("https://fonts.cdnfonts.com/css/comfortaa");
+
+html {
+  scroll-behavior: smooth;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+section h1 {
+  font-family: "Comfortaa", sans-serif;
+  font-size: 32px;
+  margin-bottom: 2rem;
+  font-weight: lighter;
+}
+
+.station {
+  background-color: #d9d9d9;
+  height: 745px;
+  padding-top: 2rem;
+}
+
+.station h1 {
+  color: rgba(56, 95, 113, 1);
+}
+
+.station .content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.station .left {
+  width: 571px;
+  margin-left: 180px;
+  border-radius: 23px;
+}
+
+.station .right {
+  background-color: rgba(56, 95, 113, 0.64);
+  width: 430px;
+  height: 512px;
+  text-align: start;
+  border-radius: 23px;
+  margin-right: 58px;
+}
+.station .right .titre {
+  color: #2b4162;
+  font-size: 48px;
+  margin-left: 43px;
+  margin-top: 2rem;
+}
+
+.station .right p {
+  font-family: "Rounded Elegance", sans-serif;
+  color: white;
+  font-size: 32px;
+  margin-left: 43px;
+  line-height: 90px;
+}
+
+.avis {
+  background-color: rgba(43, 65, 98, 1);
+  height: 500px;
+}
+
+.avis .left .avis_form {
+  margin-left: 16rem;
+  display: flex;
+  flex-direction: column;
+  resize: none;
+}
+
+.avis .left .avis_form .submit_btn {
+  margin-left: 22.3rem;
+  margin-top: 0.5rem;
+}
+
+.avis h1 {
+  color: white;
+  margin-top: 52px;
+}
+
+.avis .content {
+  display: flex;
+}
+
+.avis .left .psd {
+  width: 437px;
+  height: 29px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: rgba(217, 217, 217, 1);
+}
+
+.avis .left .msg {
+  width: 437px;
+  height: 181px;
+  margin-top: 0.5rem;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: rgba(217, 217, 217, 1);
+}
+
+.submit_btn {
+  width: 84px;
+  height: 40px;
+  background-color: rgba(217, 217, 217, 1);
+  font-size: 16px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 10rem;
+}
+
+.contact h1 {
+  margin-top: 38px;
+}
+
+.contact .form {
+  width: 1007px;
+  height: 462px;
+}

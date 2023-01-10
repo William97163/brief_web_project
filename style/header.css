@@ -1,0 +1,63 @@
+@import url("https://fonts.cdnfonts.com/css/rounded-elegance");
+@import url("https://fonts.cdnfonts.com/css/comfortaa");
+
+* {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Rounded Elegance", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  background-color: #2b4162;
+  padding-top: 32px;
+  padding-bottom: 52px;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logo {
+  width: 293px;
+  height: 109px;
+  padding-left: 30px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 3%;
+  width: 70%;
+  padding: 0;
+}
+
+nav ul li .first {
+  color: #385f71;
+  border-radius: 11px;
+  background-color: #d7b377;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 9rem;
+  height: 2.5rem;
+}
+
+nav ul li {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 32px;
+}

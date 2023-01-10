@@ -1,0 +1,42 @@
+@import url("https://fonts.cdnfonts.com/css/rounded-elegance");
+
+footer {
+  background-color: rgba(215, 179, 119, 1);
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+footer .container {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-family: "Rounded Elegance", sans-serif;
+}
+
+footer .col-menu {
+  background-color: rgba(217, 217, 217, 1);
+  padding-top: 2.5rem;
+  margin-left: 2rem;
+  font-size: 36px;
+}
+
+footer .col-social {
+  background-color: rgba(217, 217, 217, 1);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 20rem;
+  margin-left: 2rem;
+  font-size: 36px;
+}
+
+footer .col-news {
+  background-color: rgba(217, 217, 217, 1);
+  padding-top: 2.5rem;
+  width: 20rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 36px;
+}
