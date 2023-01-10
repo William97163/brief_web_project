@@ -76,6 +76,24 @@ section h1 {
   height: 500px;
 }
 
+.avis .right{
+  width: 900px;
+  height: 250px;
+  margin-top: 52px;
+  margin-right: 52px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: rgba(217, 217, 217, 1);
+  text-align: start;
+  overflow-y: scroll;
+  scrollbar-color: rebeccapurple green;
+  scrollbar-width: thin;
+}
+  .avis .right p{
+    margin-right: 0.5rem;
+}
+
 .avis .left .avis_form {
   margin-left: 16rem;
   display: flex;

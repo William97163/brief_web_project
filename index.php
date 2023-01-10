@@ -81,7 +81,7 @@
               <button class="submit_btn" type="submit">Envoyer</button>
             </form>
           </div>
-          <div class="right"><?php include('php/avis_recup.php');?></div>
+          <div class="right"><p><?php include('php/avis_recup.php');?></p></div>
         </div>
       </section>
       <section class="contact" id="contact_id">
