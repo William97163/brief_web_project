@@ -20,10 +20,11 @@ var url = "https://api.jcdecaux.com/vls/v1/stations?contract=" + contract + "&ap
         var marker = L.marker([station.position.lat, station.position.lng]).addTo(map);
         marker.on('click', function() {
             document.getElementsByClassName('info')[0].innerHTML = `
-            <p>${station.name}</p>
-            <p>Etat: ${station.status}</p>
-            <p>Vélos disponibles: ${station.available_bikes}</p>
-            <p>Places disponibles: ${station.available_bike_stands}</p>
+            <div class="titre">INFO STATION</div>
+            <h3>Nom station :</h3> <p> ${station.name}</p>
+            <h3>Etat:</h3> <p> ${station.status}</p>
+            <h3>Vélos dispo:</h3> <p> ${station.available_bikes}</p>
+            <h3>Places dispo: </h3><p>${station.available_bike_stands}</p>
           `;
         });
       });

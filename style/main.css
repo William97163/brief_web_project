@@ -29,6 +29,7 @@ section h1 {
   color: rgba(56, 95, 113, 1);
 }
 
+
 .station .content {
   display: flex;
   justify-content: space-between;
@@ -55,12 +56,20 @@ section h1 {
   margin-top: 2rem;
 }
 
-.station .right p {
+.station .right h3 {
   font-family: "Rounded Elegance", sans-serif;
   color: white;
   font-size: 32px;
   margin-left: 43px;
   line-height: 90px;
+}
+
+.info p {
+  font-family: "Rounded Elegance", sans-serif;
+  color: white;
+  font-size: 20px;
+  margin-left: 43px;
+  line-height: 10px;
 }
 
 .avis {
