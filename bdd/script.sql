@@ -21,7 +21,7 @@ CREATE TABLE Utilisateur(
 );
 
 CREATE TABLE Avis(
-   id INT NOT NULL AUTOINCREMENT,
+   id INT NOT NULL AUTO_INCREMENT,
    pseudo VARCHAR(50),
    msg VARCHAR(50),
    _date DATETIME,
