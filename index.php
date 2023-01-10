@@ -139,13 +139,17 @@
         </form>
       </section>
     </main>
-    <footer class="footer">
-      <div class="container">
-        <img class="logo" src="assets/footer_logo.png" alt="" />
-        <div class="col-menu">Menu footer</div>
-        <div class="col-social">Réseau Sociaux</div>
-        <div class="col-news">Newsletter</div>
+    <footer>
+      <h2>Nos services</h2><br>
+      <div class="services"> 
+          <div class="service">
+              <h3>Paiement en ligne</h3>
+          </div>
+          <div class="service">
+              <h3>Satisfait ou remboursé</h3>
+          </div>
       </div>
+      <p id="contact">Contact : +33 6 89 85 84 83 | &copy; 2023, BE Vélo.</p>
     </footer>
     <script
       src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
