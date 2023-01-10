@@ -86,7 +86,7 @@
       </section>
       <section class="contact" id="contact_id">
         <h1>CONTACT</h1>
-        <form class="form" method="post">
+        <form class="form" action="contact.php" method="post">
           <div class="screen">
             <div class="screen-body">
               <div class="screen-body-item">
