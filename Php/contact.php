@@ -1,5 +1,4 @@
 <?php
-<?php
 
 require 'path/to/PHPMailerAutoload.php';
 
@@ -38,6 +37,7 @@ if (!$mail->send()) {
     echo 'Le message a bien été envoyé.';
 }
 
+?>
 
 /*
 //Code qui marche si nous ne somme pas en local car mail ne marche pas en local
