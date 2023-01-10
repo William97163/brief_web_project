@@ -1,17 +1,20 @@
 <?php
 
 // Récupération des données du formulaire
-$name = $_POST['name'];
-$email = $_POST['email'];
-$phone = $_POST['phone'];
+$pseudo = $_POST['contact_nom'];
+$email = $_POST['contact_mail'];
+$tel = $_POST['contact_num'];
+$msg = $_POST['contact_msg'];
 
 // Préparation du message
 $message = "Nouveau formulaire soumis\n\n";
-$message .= "Nom : " . $name . "\n";
+$message .= "Nom : " . $pseudo . "\n";
 $message .= "Email : " . $email . "\n";
-$message .= "Téléphone : " . $phone . "\n";
+$message .= "telephone : " . $tel . "\n";
+$message .= "Message : " . $msg . "\n";
+
 
 // Envoi de l'email
-mail('youremail@example.com', 'Nouveau formulaire soumis', $message);
+mail('twintower1109@gmail.com', 'Nouveau formulaire soumis', $message);
 
 ?>
