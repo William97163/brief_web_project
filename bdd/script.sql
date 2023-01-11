@@ -2,16 +2,7 @@ drop database if exists web_projet;
 
 CREATE database web_projet;
 
-CREATE TABLE Station(
-   id INT,
-   nom VARCHAR(50),
-   etat VARCHAR(50),
-   velo VARCHAR(50),
-   place VARCHAR(50),
-   PRIMARY KEY(id)
-);
-
-CREATE TABLE Utilisateur(
+CREATE TABLE Contact(
    id INT,
    nom VARCHAR(50),
    mail VARCHAR(50),
