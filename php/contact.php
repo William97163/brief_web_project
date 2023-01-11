@@ -55,6 +55,7 @@ $message .= "Message : " . $msg . "\n";
 
 
 // Envoi de l'email
-mail('twintower1109@gmail.com', 'Nouveau formulaire soumis', $message);
+mail('dydz.reichart@gmail.com', 'Nouveau formulaire soumis', $message);
+header("Location: http://localhost/brief_web_project/#contact_id");
 
 ?>
