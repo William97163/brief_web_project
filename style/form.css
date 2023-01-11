@@ -58,6 +58,7 @@
 
 .app-form-group {
   margin-bottom: 15px;
+  width: 2rem;
 }
 
 .app-form-group.message {
@@ -75,6 +76,7 @@
   background: none;
   border: none;
   border-bottom: 1px solid #666;
+  border-width: 0.5rem;
   color: #ddd;
   font-size: 14px;
   text-transform: uppercase;

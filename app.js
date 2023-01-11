@@ -2,7 +2,7 @@ var contract = "Lyon";
 var api_key = "8f905b0bdd8ded93ab15d7ea8581dc703c2a1dea";
 var url = "https://api.jcdecaux.com/vls/v1/stations?contract=" + contract + "&apiKey=" + api_key;
 var myIcon = L.icon({
-    iconUrl: 'img/velo.png',
+    iconUrl: 'assets/velo.png',
     iconSize: [32, 32],
 });
  

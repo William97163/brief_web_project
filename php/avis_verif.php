@@ -1,7 +1,7 @@
 <?php
-   if(!empty($_POST['nom'])&& !empty($_POST['message'])){
+   if(!empty($_POST['nom']) && !empty($_POST['message'])){
       // require permet d'indiquer qu'un fichier est requis 
-      require('avis_bdd.php');
+      require('bdd.php');
 
       $req= $bdd -> prepare('INSERT INTO avis(pseudo, msg, _date) VALUES(:nom, :msg, :heure)');
       $req -> execute([

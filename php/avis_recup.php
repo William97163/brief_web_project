@@ -1,6 +1,6 @@
 <!-- cette page affiche les avis dans la partie dédiée -->
 <?php
-require('avis_bdd.php');
+require('bdd.php');
 $req = $bdd->prepare('SELECT * FROM avis');
 $req->execute();
 
